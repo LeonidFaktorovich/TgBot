@@ -2,7 +2,7 @@ from telebot.async_telebot import AsyncTeleBot
 import telebot
 import asyncio
 
-bot = AsyncTeleBot('5925498570:AAHnk7IF9o1MI3aCNSykOT35WexEXWYYxQU')
+bot = AsyncTeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['MSU'])
